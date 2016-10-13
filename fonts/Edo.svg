@@ -3,7 +3,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
 <defs>
 <font id="EdoSZ" horiz-adv-x="1200">
-<font-face descent="-410" font-family="Edo SZ" underline-thickness="150" ascent="1638" x-height="1311" panose-1="2 0 0 0 0 0 0 0 0 0" font-weight="400" bbox="-815 -408 1666 1857" cap-height="1326" units-per-em="2048" underline-position="-442" unicode-range="U+0020-F002"/>
+<font-face descent="-410" font-family="Edo" underline-thickness="150" ascent="1638" x-height="1311" panose-1="2 0 0 0 0 0 0 0 0 0" font-weight="400" bbox="-815 -408 1666 1857" cap-height="1326" units-per-em="2048" underline-position="-442" unicode-range="U+0020-F002"/>
 <missing-glyph/>
 <glyph glyph-name="space" horiz-adv-x="569" unicode=" "/>
 <glyph glyph-name="space" horiz-adv-x="569" unicode=" "/>
