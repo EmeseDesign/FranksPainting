@@ -1,24 +1,27 @@
+html,
 body {
     font-size: 16px;
-    color: #666;
-    background-color: #74bedd;
+    color: #333;
     font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 .container {
-    padding: 20px;
+    padding: 40px;
+    margin: 0;
 }
 
 
 /** HEADER **/
 
-.panel-header section {
+header {
     background-color: #74bedd;
     border-radius: 0;
     border: 0;
 }
 
-#phone-img {
+.phone-img {
     width: 50px;
     height: 50px;
 }
@@ -29,54 +32,36 @@ body {
     right: 60px;
     width: 300px;
     height: 300px;
-    margin: 10px 15px 10px 15px;
 }
 
 
 /*END HEADER*/
 
-.services-container #servicesbg-img {
-    background: url('../img/frankslogo.png') no-repeat;
+
+/*MAIN CONTENT*/
+
+#introduction {
+    background-color: #cadb71;
+}
+
+#services {
+    background: url('../img/ladderc.jpg') no-repeat beige;
+}
+
+#testimonial {
+    background-color: #cadb71;
+}
+
+#gallery {
+    background-color: #f9c316;
 }
 
 
 /*FOOTER*/
 
-.panel-footer {
-    margin-top: 30px;
-    padding-top: 35px;
-    padding-bottom: 30px;
-    background-color: #222;
-    border-top: 0;
-    color: #fff;
-}
-
-.panel-footer div.row {
-    margin-bottom: 35px;
-}
-
-#hours,
-#address {
-    line-height: 2;
-}
-
-#hours > span,
-#address > span {
-    font-size: 1.3em;
-}
-
-#address p {
-    color: #557c3e;
-    font-size: .8em;
-    line-height: 1.8;
-}
-
-#testimonials {
-    font-style: italic;
-}
-
-#testimonials p:nth-child(2) {
-    margin-top: 25px;
+footer {
+    background-color: #74bedd;
+    color: #333;
 }
 
 
