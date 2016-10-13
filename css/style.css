@@ -1,10 +1,56 @@
+@font-face {
+    font-family: 'Lane-Narrow';
+    src: url('../fonts/Lane-Narrow.eot');
+    src: url('../fonts/Lane-Narrow.eot?#iefix') format('embedded-opentype'), url('../fonts/Lane-Narrow.woff2') format('woff2'), url('../fonts/Lane-Narrow.woff') format('woff'), url('../fonts/Lane-Narrow.ttf') format('truetype'), url('../fonts/Lane-Narrow.otf') format('opentype'), url('../fonts/Lane-Narrow.svg#Lane-Narrow') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+
+@font-face {
+    font-family: 'Edo';
+    src: url('../fonts/Edo.eot');
+    src: url('../fonts/Edo.eot?#iefix') format('embedded-opentype'), url('../fonts/Edo.woff2') format('woff2'), url('../fonts/Edo.woff') format('woff'), url('../fonts/Edo.ttf') format('truetype'), url('../fonts/Edo.otf') format('opentype'), url('../fonts/Edo.svg#Edo') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-F002;
+}
+
 html,
 body {
     font-size: 16px;
-    color: #333;
-    font-family: "Roboto", sans-serif;
+    color: #444;
     padding: 0;
     margin: 0;
+    font-family: font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    font-family: 'Lane-Narrow', sans-serif;
+    color: #222;
+}
+
+h2 {
+    font-family: 'Lane-Narrow', sans-serif;
+    color: #333;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+li {
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style-type: none
 }
 
 .container {
@@ -26,12 +72,20 @@ header {
     height: 50px;
 }
 
+#logo-name {
+    font-family: 'Edo', sans-serif;
+}
+
 #logo-img {
     position: absolute;
     top: 40px;
     right: 60px;
     width: 300px;
     height: 300px;
+}
+
+#logo-since {
+    font-family: 'Edo', sans-serif;
 }
 
 
