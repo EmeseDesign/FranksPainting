@@ -33,6 +33,11 @@ body {
     background: #74bedd;
 }
 
+a {
+    text-decoration: none;
+    color: #005A9C;
+}
+
 h1 {
     font-family: 'Lane-Narrow', sans-serif;
     font-size: 36px;
@@ -241,11 +246,11 @@ li {
     background: #222;
 }
 
-#ed {
-    position: absolute;
-    bottom: 12px;
+#credits {
+    padding-bottom: 28px;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    text-align: center;
 }
 
 
