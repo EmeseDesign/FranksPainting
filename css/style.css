@@ -18,6 +18,18 @@
     unicode-range: U+0020-F002;
 }
 
+@keyframes pulse {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.35;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
 html,
 body {
     overflow-x: hidden;
@@ -273,6 +285,9 @@ footer {
     #logo-since {
         right: 110px;
     }
+    #swipearrow {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -341,6 +356,22 @@ footer {
     #gallery {
         overflow-x: auto;
         white-space: nowrap;
+        position: relative;
+    }
+    #gallery>#swipearrow {
+        height: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 120px;
+        /*        opacity: 0.5;*/
+        animation-name: pulse;
+        animation-duration: 2.5s;
+        animation-timing-function: ease-out;
+        animation-delay: 0;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-fill-mode: none;
+        animation-play-state: running;
     }
     #testimonial {
         padding: 40px;
